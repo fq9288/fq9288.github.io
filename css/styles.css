@@ -4,6 +4,10 @@ body {
     background-color: #FFFF99; 
 }
 
+img {
+    max-width: 100%;
+}
+
 #container {
     width: 80%; 
     margin-left:auto;
