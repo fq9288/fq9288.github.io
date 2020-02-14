@@ -130,5 +130,47 @@ footer{
     }
     
 }
+
+@media only screen and (min-width: 769px){
+     
+    #container {
+        width: 80%;
+        
+    }
+    
+    nav ul{
+        margin: 0;
+        padding-left: 0.50%;
+        padding-right: 0.50%;
+        border
+    }
+    nav li{
+        border-radius: 0;
+        border-top: solid #000000;
+        border-bottom: solid #000000;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 20%;
+    }
+    nav li a {
+        display: inline-block;
+        padding: 0.7em
+    }
+    main {
+        border-style: none;
+        box-shadow: 0.5em 0.5em 0.5em #404040;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    main p {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    .items {
+        margin-bottom: 6em;
+    }
+}
+
     
 
